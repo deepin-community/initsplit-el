@@ -1,5 +1,28 @@
-template-repository (1.0-1) unstable; urgency=medium
+initsplit-el (1.8+3+gc941d43-4) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Rebuild against dh-elpa 2.1.5.
+    Upload pushed to dgit-repos but not salsa.
+    See <https://lists.debian.org/debian-emacsen/2024/07/msg00077.html>.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sean Whitton <spwhitton@spwhitton.name>  Thu, 25 Jul 2024 22:22:03 +0900
+
+initsplit-el (1.8+3+gc941d43-3) unstable; urgency=medium
+
+  * Fix typo in Vcs-Git
+  * Rebuild with dh-elpa 2.x
+
+ -- David Bremner <bremner@debian.org>  Mon, 25 Jan 2021 07:41:39 -0400
+
+initsplit-el (1.8+3+gc941d43-2) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild with current dh-elpa
+
+ -- David Bremner <bremner@debian.org>  Thu, 29 Aug 2019 07:26:04 -0300
+
+initsplit-el (1.8+3+gc941d43-1) unstable; urgency=medium
+
+  * Initial split from emacs-goodies-el (See #899221)
+
+ -- David Bremner <bremner@debian.org>  Sat, 28 Jul 2018 16:56:29 +0800
